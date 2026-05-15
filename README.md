@@ -11,13 +11,25 @@ Civil/water/dam PE in the Blue Ridge. I build engineering software during the da
 | **[siteprior.com](https://siteprior.com/)** | $29 property due-diligence reports — federal flood zones, soils, slope, wetlands. Single-page checkout. | Static frontend · same Fly backend as HydroComplete |
 | **[boardgaminghub.com](https://boardgaminghub.com/)** | 30+ free in-browser games & sims — chess, go, mancala, plus originals (Bisque, Aresia, Doctrine) and physics sims (Apoapsis, Floodline, Tower). Each one a single HTML file. | Vanilla JS, Canvas, Three.js where it earns its keep |
 
-## Public repos worth a look
+## CAD desk tools
 
-- **[board-gaming](https://github.com/mf4633/board-gaming)** — every game on boardgaminghub.com, one HTML file each
-- **[eclipse-predictor](https://github.com/mf4633/eclipse-predictor)** — 3D solar eclipse paths computed live from Meeus/ELP-2000, NASA catalog dates
-- **[Hellcats-Flight-Sim](https://github.com/mf4633/Hellcats-Flight-Sim)** — WWII Pygame flight sim, F6F Hellcat with carrier ops and AI opponents
-- **[flappy-modern](https://github.com/mf4633/flappy-modern)** — Flappy Bird clone with coins, shield, day/night, slow-mo close calls
-- **[ALR](https://github.com/mf4633/ALR)** — research code: physics-based vortex particle simulation as a Manning's-equation alternative for open-channel scour screening
+Drop-in scripts for the three major civil platforms. Every routine is one file, named for the command it adds.
+
+- **[C3D-AutoCAD](https://github.com/mf4633/C3D-AutoCAD)** — 23 LISP commands for AutoCAD / Civil 3D (LABELACRES, BD, SLP, FLAT, CHZ, T2M, BC, PA, ...).
+- **[Carlson-CAD](https://github.com/mf4633/Carlson-CAD)** — 22 LISP commands for Carlson Civil/Survey, survey-first (LABELAC, LOTBD, PNORENUM, PNOINV, TRAV, FBREP, STALBL, ...).
+- **[OpenRoads_vba](https://github.com/mf4633/OpenRoads_vba)** — 24 VBA subs for Bentley OpenRoads Designer (LabelAcres, PointsIO PNEZD I/O, StationOffset, LevelTranslate, ZTools, ...), shipped as importable `.bas` source.
+
+## Engineering research & tooling
+
+- **[swmm-breach](https://github.com/mf4633/swmm-breach)** — pip-installable dam-breach hydrograph generator for EPA SWMM / PCSWMM. Froehlich (2008) implemented, Teton validation case included.
+- **[ALR](https://github.com/mf4633/ALR)** — physics-based vortex particle simulation as a Manning's-equation alternative for open-channel scour screening. 109 tests, MIT-licensed.
+- **[eclipse-predictor](https://github.com/mf4633/eclipse-predictor)** — 3D solar eclipse paths computed live from Meeus / ELP-2000, NASA catalog dates, single HTML file.
+
+## Sims & games
+
+- **[board-gaming](https://github.com/mf4633/board-gaming)** — every game on boardgaminghub.com, one HTML file each.
+- **[Hellcats-Flight-Sim](https://github.com/mf4633/Hellcats-Flight-Sim)** — WWII Pygame flight sim, F6F Hellcat with carrier ops and AI opponents.
+- **[flappy-modern](https://github.com/mf4633/flappy-modern)** — Flappy Bird clone with coins, shield, day/night, slow-mo close calls.
 
 ## What I care about
 
