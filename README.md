@@ -1,6 +1,19 @@
-# Hi, I'm Hydro Engineer
+# Michael Flynn, PE
 
-Civil/water/dam PE in the Blue Ridge. I build engineering software during the day and single-file HTML games at night.
+Civil / water resources / dam engineer in the Blue Ridge (you may know me as **Hydro Engineer**). I build the **HydroComplete ecosystem** — formula-transparent water-resources software that meets engineers on whatever platform they already work in: the browser, QGIS, Civil 3D, OpenRoads, or a Python console. Single-file HTML games at night.
+
+## The HydroComplete ecosystem
+
+One family of real hydrology & hydraulics engines, many front doors:
+
+| Platform | Project | What |
+|---|---|---|
+| Browser | [hydrocomplete.com](https://hydrocomplete.com/) | Full stormwater design suite — four calculation engines, live USDA/NOAA data, KaTeX-transparent formulas |
+| QGIS | [hydrocn-qgis](https://github.com/mf4633/hydrocn-qgis) | Free GPL plugin: SCS Curve Number from SSURGO + NLCD + DEM slope + NOAA Atlas 14, fetched automatically, with an ESA WorldCover backup source |
+| Civil 3D | [hydrocomplete-civil3d](https://github.com/mf4633/hydrocomplete-civil3d) | Stormwater hydraulics add-in — Rust/WASM calculation DAG inside AutoCAD Civil 3D |
+| Open CAD Studio | [OpenCADStudio](https://github.com/mf4633/OpenCADStudio) · [H&H plugin](https://github.com/mf4633/opencad-hydrocomplete-plugin) · [storm sewer plugin](https://github.com/mf4633/opencad-storm-sewer-plugin) | Rust-native CAD with hydrology/hydraulics add-ons |
+| Engines & libraries | [stormsewer](https://github.com/mf4633/stormsewer) · [hydro-tools](https://github.com/mf4633/hydro-tools) · [hydrocomplete-dag](https://github.com/mf4633/hydrocomplete-dag) | Native-Rust storm sewer engine · open hydrology primitives · WASM model builder |
+| Research | [swmm-breach](https://github.com/mf4633/swmm-breach) · [ALR](https://github.com/mf4633/ALR) | Dam-breach hydrographs for SWMM · vortex-particle scour screening |
 
 ## Live products
 
