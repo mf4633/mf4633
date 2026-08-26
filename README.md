@@ -8,12 +8,12 @@ One family of real hydrology & hydraulics engines, many front doors:
 
 | Platform | Project | What |
 |---|---|---|
-| Desktop | [**stormsewer**](https://github.com/mf4633/stormsewer) | **StormSewer** — a free, GPL storm sewer design app for Windows, macOS and Linux. Rational method, Manning across four conduit shapes, standard-step HGL/EGL, HEC-22 inlets with bypass carryover, auto-sizing, submittal PDF reports. [Download](https://github.com/mf4633/stormsewer/releases/latest) · [run it in the browser](https://mf4633.github.io/stormsewer/) |
+| Desktop | [**stormsewer**](https://github.com/mf4633/stormsewer) | **StormSewer** — a free, GPL storm sewer design app for Windows, macOS and Linux. Rational method, Manning across four conduit shapes, standard-step HGL/EGL, HEC-22 inlets with bypass carryover, auto-sizing, submittal PDF reports. `brew install --cask mf4633/tap/stormsewer` · `winget install MichaelFlynn.StormSewer` · [direct download](https://github.com/mf4633/stormsewer/releases/latest) |
 | Browser | [hydrocomplete.com](https://hydrocomplete.com/) | Full stormwater design suite — four calculation engines, live USDA/NOAA data, KaTeX-transparent formulas |
 | QGIS | [hydrocn-qgis](https://github.com/mf4633/hydrocn-qgis) | Free GPL plugin: SCS Curve Number from SSURGO + NLCD + DEM slope + NOAA Atlas 14, fetched automatically, with an ESA WorldCover backup source |
 | Civil 3D | [hydrocomplete-civil3d](https://github.com/mf4633/hydrocomplete-civil3d) | Stormwater hydraulics add-in — Rust/WASM calculation DAG inside AutoCAD Civil 3D |
 | Open CAD Studio | [OpenCADStudio](https://github.com/mf4633/OpenCADStudio) · [H&H plugin](https://github.com/mf4633/opencad-hydrocomplete-plugin) · [storm sewer plugin](https://github.com/mf4633/opencad-storm-sewer-plugin) | Rust-native CAD with hydrology/hydraulics add-ons |
-| Engines & libraries | [stormsewer](https://github.com/mf4633/stormsewer) · [hydro-tools](https://github.com/mf4633/hydro-tools) · [hydrocomplete-dag](https://github.com/mf4633/hydrocomplete-dag) | The storm sewer engine as an embeddable Rust/WASM crate (same repo as the app) · open hydrology primitives · WASM model builder |
+| Engines & libraries | [stormsewer](https://crates.io/crates/stormsewer) · [hydro-tools](https://github.com/mf4633/hydro-tools) · [hydrocomplete-dag](https://github.com/mf4633/hydrocomplete-dag) | The storm sewer engine as an embeddable Rust crate — `cargo add stormsewer`, also compiled to WebAssembly for [in-browser calculators](https://mf4633.github.io/stormsewer/) · open hydrology primitives · WASM model builder |
 | Research | [swmm-breach](https://github.com/mf4633/swmm-breach) · [ALR](https://github.com/mf4633/ALR) | Dam-breach hydrographs for SWMM · vortex-particle scour screening |
 
 ## Live products
